@@ -1,0 +1,131 @@
+
+.body-container-2{
+    height: 100vh;
+    display: none;
+    grid-template-rows: 10vh 20vh 171px 20vh 10vh auto;
+}
+/* extra small devices */
+@media only screen and (max-width: 575.98px) {
+    .body-container-2{
+        margin: 20px;
+
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .body-container-2{
+        margin: 20px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .body-container-2{
+        width: 70%;
+        margin: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .body-container-2{
+        width: 70%;
+        margin: 20px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .body-container-2{
+        width: 70%;
+        margin: 20px;
+    }
+}
+.header-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#close{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.add-paragraph-1{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.add-paragraph-2{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255,0.9);
+}
+textarea{
+    height: 161px;
+    background-color: rgb(232, 232, 232,0.2);
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 0;
+    color: rgb(255, 255, 255,0.28);
+    font-size: 0.75;
+    font-weight: 400;
+}
+textarea::placeholder{
+    color: rgb(255, 255, 255,0.28);
+    font-size: 0.75;
+    font-weight: 400;
+    padding: 8px 9px;
+}
+input[type="date"]{
+    height: 53px;
+    background-color: rgb(232, 232, 232,0.2);
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255,0.28);
+    font-size: 0.75;
+    font-weight: 400;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0.3;
+  }
+  
+.datebox-paragraph{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255,0.9);
+}
+.add-button{
+    background-color: #f05454;
+    width: 100%;
+    height: 49px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.add-button:hover{
+    border: 1px solid transparent;
+    outline: 0;
+    background-color: #f05454;
+    transform: scale(1.1);
+}
+.add-button:focus{
+    border: 1px solid transparent;
+    outline: 0;
+    background-color: #f05454;
+    transform: scale(1.1);
+}
+.footer-2{
+    width: 178px;
+}
+.footer-2-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

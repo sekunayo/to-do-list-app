@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/new.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+</head>
+
+<body id="body">
+    <div class="body-container-1" id="body1">
+        <div class="header-1">
+            <i class="fas fa-bars" id="menu"></i>
+        </div>
+        <div class="paragraph-container-1">
+            <p class="paragraph-heading-1">Your Todos</p>
+            <p class="paragraph-heading-2" id="pheading2">You have<span id="countValue"></span> tasks on your list</p>
+        </div>
+        <div class="inbox-container" id="inboxcontainer">
+        </div>
+        <div class="footer-1">
+            <div class="create-task-button" id="createbutton"><i class="fas fa-plus" id="plus"></i></div>
+        </div>
+    </div>
+    <!-- second-page -->
+    <div class="body-container-2" id="body2">
+        <div class="header-2">
+            <i class="fas fa-times" id="close"></i>
+        </div>
+        <div class="paragraph-container-2">
+            <p class="add-paragraph-1">Add A Task</p>
+            <p class="add-paragraph-2">Descibe your task</p>
+        </div>
+        <div class="textbox-container">
+            <textarea name="" id="textarea" placeholder="What do you need to do?"></textarea>
+        </div>
+        <div class="datebox-container">
+            <p class="datebox-paragraph">Due Date</p>
+            <input type="date" id="date">
+        </div>
+        <div class="footer-2-container">
+            <div class="footer-2">
+                <button class="add-button" id="addbutton">Add Todo</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- third-page -->
+    <div class="body-container-3" id="body3">
+        <div class="header-3">
+            <i class="fas fa-times" id="closer"></i>
+        </div>
+        <div class="list-container">
+            <p class="list-paragraph" id="list1">
+                New List
+            </p>
+            <p class="list-paragraph" id="list2">
+                Contact us
+            </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

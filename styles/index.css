@@ -1,0 +1,53 @@
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Slab", sans-serif;
+}
+p{
+    color: #e8e8e8;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+button{
+    border: 1px solid transparent;
+    outline: 0;
+    background-color: #f05454;
+    border-radius: 10px;
+    width: 100%;
+    height: 49px;
+}
+.body-container{
+    display: grid;
+    grid-template-rows: 20vh 20vh;
+}
+.paragraph-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+}
+button a{
+    font-size: 1rem;
+    color: #ffffff;
+    font-style: bold;
+    text-decoration: none;
+}
+button:hover{
+    border: 1px solid transparent;
+    outline: 0;
+    background-color: #f05454;
+    transform: scale(1.1);
+}
