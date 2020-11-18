@@ -8,7 +8,6 @@ body {
     height: 100vh;
     background-color: #222831;
     font-family: "Roboto Slab", sans-serif;
-    position: relative;
 }
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
@@ -49,6 +48,8 @@ body {
 .body-container-1 {
     display: grid;
     grid-template-rows: 10vh 20vh auto 10vh;
+    position: relative;
+
 }
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
@@ -67,7 +68,7 @@ body {
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .body-container-1{
-        width: 70%;
+        width: 50%;
         margin: 20px;
     }
 }
@@ -75,7 +76,7 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
     .body-container-1{
-        width: 70%;
+        width: 50%;
         margin: 20px;
     }
 }
@@ -83,7 +84,7 @@ body {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .body-container-1{
-        width: 70%;
+        width: 50%;
         margin: 20px;
     }
 }
@@ -120,11 +121,46 @@ body {
     border: 1px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     background-color: rgba(48, 71, 94, 0.45);
-    height: 77px;
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-columns: 1fr 7fr 2fr;
     grid-template-rows: 35px 35px;
     margin: 5px 0px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+/* extra small devices */
+@media only screen and (max-width: 575.98px) {
+    .inbox-box{
+        height: 77px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .inbox-box{
+        height: 77px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .inbox-box{
+        height: 85px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .inbox-box{
+        height: 85px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .inbox-box{
+        height: 85px;
+    }
 }
 #trashIcon{
     display: flex;
@@ -141,13 +177,14 @@ body {
 }
 
 .inbox-paragraph-2 {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     font-weight: 500;
     color: #8e8e8e;
     margin: 0;
 }
+
 #dateIcon{
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     font-weight: 500;
     color: #8e8e8e;
 margin-right: 5px;
@@ -196,12 +233,16 @@ margin-right: 5px;
     outline: 0;
     background-color: #f05454;
     transform: scale(1.1);
+    transition: 1.5s;
+
 }
 .create-task-button:hover{
     border: none;
     outline: 0;
     background-color: #f05454;
     transform: scale(1.1);
+    transition: 1.5s;
+
 }
 .footer-1 {
     position: absolute;
