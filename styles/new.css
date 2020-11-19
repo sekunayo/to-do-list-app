@@ -2,12 +2,12 @@
 .body-container-2{
     height: 100vh;
     display: none;
-    grid-template-rows: 10vh 15vh 171px 20vh 10vh auto;
 }
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
     .body-container-2{
         margin: 20px;
+        grid-template-rows: 10vh 17vh 171px 20vh 10vh auto;
 
     }
 }
@@ -15,6 +15,8 @@
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
     .body-container-2{
         margin: 20px;
+        grid-template-rows: 10vh 17vh 171px 20vh 10vh auto;
+
     }
 }
 
@@ -23,6 +25,8 @@
     .body-container-2{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 15vh 171px 20vh 10vh auto;
+
     }
 }
 
@@ -31,6 +35,8 @@
     .body-container-2{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 15vh 171px 20vh 10vh auto;
+
     }
 }
 
@@ -39,6 +45,8 @@
     .body-container-2{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 15vh 171px 20vh 10vh auto;
+
     }
 }
 .header-2{

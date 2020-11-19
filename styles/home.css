@@ -8,6 +8,7 @@ body {
     height: 100vh;
     background-color: #222831;
     font-family: "Roboto Slab", sans-serif;
+    position: relative;
 }
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
@@ -45,9 +46,13 @@ body {
         justify-content: center;
     }
 }
+.header-1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
 .body-container-1 {
     display: grid;
-    grid-template-rows: 10vh 20vh auto 10vh;
     position: relative;
 
 }
@@ -55,6 +60,9 @@ body {
 @media only screen and (max-width: 575.98px) {
     .body-container-1{
         margin: 20px;
+        height: 100vh;
+        grid-template-rows: 20vh  auto 20vh;
+
 
     }
 }
@@ -62,6 +70,8 @@ body {
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
     .body-container-1{
         margin: 20px;
+        height: 100vh;
+        grid-template-rows: 20vh  auto 20vh;
     }
 }
 
@@ -70,6 +80,8 @@ body {
     .body-container-1{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 20vh auto 10vh;
+
     }
 }
 
@@ -78,6 +90,8 @@ body {
     .body-container-1{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 20vh auto 10vh;
+
     }
 }
 
@@ -86,6 +100,8 @@ body {
     .body-container-1{
         width: 50%;
         margin: 20px;
+        grid-template-rows: 10vh 20vh auto 10vh;
+
     }
 }
 #menu {
